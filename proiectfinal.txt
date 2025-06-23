@@ -1,0 +1,172 @@
+ Program
+   Robot Program
+     MoveJ
+       proximitate_cub
+     MoveL
+       prindere_cub
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveL
+       proximitate_cub
+     MoveJ
+       punctinter_masa
+     MoveJ
+       primul_cub
+       Wait: 0.5
+       'G80'
+       RG Grip
+     MoveJ
+       proximitate_cub
+     MoveL
+       prindere_cub
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveJ
+       proximitate_cub
+     MoveL
+       prox_c2sus
+     MoveL
+       cub2
+       Wait: 0.5
+       'G80'
+       RG Grip
+     MoveL
+       prox_cub2
+     MoveJ
+       proximitate_cub
+     MoveL
+       prindere_cub
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveJ
+       proximitate_cub
+     MoveJ
+       prox_cub3sus
+     MoveL
+       cub3
+       Wait: 0.5
+       'G80'
+       RG Grip
+     MoveL
+       prox_cub3
+     MoveJ
+       proximitate_cub
+     MoveL
+       prindere_cub
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveL
+       proximitate_cub
+     MoveJ
+       punctinter_masa
+     MoveL
+       cub1_rand2
+       Wait: 0.5
+       'G80'
+       RG Grip
+     MoveL
+       ridicare_cub1r2
+     MoveJ
+       proximitate_cub
+     MoveL
+       prindere_cub
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveL
+       proximitate_cub
+     MoveJ
+       punctinter_masa
+     MoveL
+       prox_c2r2sus
+     MoveL
+       cub2_r2
+       Wait: 0.5
+       'G80'
+       RG Grip
+     MoveL
+       prox_cub2r2
+     MoveJ
+       proximitate_cub
+     MoveL
+       prindere_cub
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveL
+       proximitate_cub
+     MoveJ
+       punctinter_masa
+     MoveL
+       cub1r3
+       Wait: 0.5
+       'G80'
+       RG Grip
+     MoveL
+       prox_c3r3s
+     Call vopsirecubfinal
+   vopsirecubfinal
+     MoveJ
+       intermediar_pix
+     MoveL
+       pix
+       Wait: 0.5
+       RG Grip
+       'G10'
+     MoveJ
+       intermediar_pix
+     MoveJ
+       intermediar_cub
+     MoveL
+       cub_susstanga
+     MoveL
+       cub_susdreapta
+     MoveL
+       diagstangjos
+     MoveL
+       cub_dreaptajos
+     MoveJ
+       intermediar_cub
+     MoveJ
+       interm_latdrcub
+     MoveJ
+       interm_fata3
+     MoveL
+       fata3_sus
+     MoveL
+       fata3smin50y
+     MoveL
+       diag
+     MoveL
+       fata3josmin50y
+     MoveL
+       interm_fata3ext
+     MoveJ
+       intermediar_cub
+     MoveJ
+       interm_fata2
+     MoveL
+       fata2_sus
+     MoveL
+       fata2susmin50y
+     MoveL
+       diag2
+     MoveL
+       fata2josmin50y
+     MoveJ
+       fata2_intermext
+     MoveJ
+       intermediar_cub
+     MoveJ
+       intermediar_pix
+     MoveL
+       Waypoint_1
+       Wait: 0.5
+       'G40'
+       RG Grip
+     MoveL
+       intermediar_pix
