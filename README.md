@@ -81,13 +81,13 @@ Pentru a rula și testa programul robotului în simulator:
 Mai jos sunt câteva capturi de ecran din simulatorul URSim, ilustrând etapele de construire a piramidei și secvența de vopsire.
 
 Spațiul de lucru al simulatorului URSim:
-(Notă: Extrageți această imagine din PDF (ex: prima pagină sau o vedere generală) și plasați-o în directorul assets.)
+![vedere_ursim](https://github.com/user-attachments/assets/6f9e650d-82f7-465c-a571-9752eabed9d2)
 
 Robotul în timpul construirii piramidei:
-(Notă: Extrageți o imagine relevantă din secțiunea de construire din PDF și plasați-o în directorul assets.)
+![piramida](https://github.com/user-attachments/assets/a7a21897-9d93-4d64-8702-b7b1bab86177)
 
 Secvența de vopsire a cubului final:
-(Notă: Extrageți o imagine relevantă din secțiunea de vopsire din PDF și plasați-o în directorul assets.)
+![vopsire](https://github.com/user-attachments/assets/19f2da57-9d27-4a35-bcff-ce68b9ca85da)
 
 ---
 
