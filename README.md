@@ -38,16 +38,16 @@ Acest proiect a fost dezvoltat și testat folosind:
 
 Proiectul este structurat modular pentru a facilita gestionarea complexității. Logica programului este împărțită în subprograme distincte:
 
-1. move_to_home(): Subprogram pentru poziționarea inițială și sigură a brațului robotic.
+1. move_to_home(): Subprogram pentru poziționarea inițială și sigură a brațului robotic
 2. build_pyramid(): Secvență complexă pentru construirea piramidei:
-Calculează dinamic coordonatele de preluare și plasare pentru fiecare cub, pe fiecare strat.
-Include mișcări de siguranță (pre-pick, post-place) pentru a evita coliziunile.
-Gestionarea gripper-ului (deschidere/închidere) pentru a prinde și elibera cuburile.
+Calculează dinamic coordonatele de preluare și plasare pentru fiecare cub, pe fiecare strat
+Include mișcări de siguranță (pre-pick, post-place) pentru a evita coliziunile
+Gestionarea gripper-ului (deschidere/închidere) pentru a prinde și elibera cuburile
 3. paint_cube(): Secvență pentru vopsirea suprafeței superioare a cubului final:
-Mișcări precise pentru a prelua markerul.
-Traiectorie definită (ex: spirală sau linii) pentru a acoperi suprafața.
-Mișcări de siguranță pentru a repoziționa markerul.
-Programul principal apelează aceste subprograme într-o ordine logică pentru a executa sarcina completă.
+Mișcări precise pentru a prelua markerul
+Traiectorie definită (ex: spirală sau linii) pentru a acoperi suprafața
+Mișcări de siguranță pentru a repoziționa markerul
+Programul principal apelează aceste subprograme într-o ordine logică pentru a executa sarcina completă
 
 ---
 
@@ -55,11 +55,11 @@ Programul principal apelează aceste subprograme într-o ordine logică pentru a
 
 Întregul program a fost testat și validat extensiv în simulatorul URSim. Acest proces a fost crucial pentru:
 
-- Ajustarea Coordonatelor: Determinarea precisă a punctelor de preluare și plasare pentru fiecare cub, asigurând stabilitatea piramidei.
-- Verificarea Logicii: Asigurarea că secvențele de construire și vopsire rulează corect și fără erori.
-- Prevenirea Coliziunilor: Testarea mișcărilor robotului în spațiul de lucru pentru a evita orice coliziune cu mediul sau cu structura construită.
-- Sincronizare Mișcări-Gripper: Asigurarea unei sincronizări perfecte între mișcările brațului robotic și acțiunile gripper-ului.
-- Simulările au confirmat funcționalitatea și robustețea soluției propuse, pregătind programul pentru o eventuală rulare pe un robot fizic.
+- Ajustarea Coordonatelor: Determinarea precisă a punctelor de preluare și plasare pentru fiecare cub, asigurând stabilitatea piramidei
+- Verificarea Logicii: Asigurarea că secvențele de construire și vopsire rulează corect și fără erori
+- Prevenirea Coliziunilor: Testarea mișcărilor robotului în spațiul de lucru pentru a evita orice coliziune cu mediul sau cu structura construită
+- Sincronizare Mișcări-Gripper: Asigurarea unei sincronizări perfecte între mișcările brațului robotic și acțiunile gripper-ului
+- Simulările au confirmat funcționalitatea și robustețea soluției propuse, pregătind programul pentru o eventuală rulare pe un robot fizic
 
 ---
 
