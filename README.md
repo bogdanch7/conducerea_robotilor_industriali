@@ -1,6 +1,6 @@
 # Braț Robotic Universal Robots: Construire Piramidă și Vopsire Cub
 
-Acest proiect implică programarea unui braț robotic Universal Robots (UR5) pentru a executa două sarcini complexe și distincte: construirea unei piramide din cuburi și vopsirea suprafeței superioare a cubului final al acestei piramide. Proiectul demonstrează controlul precis al mișcărilor robotului, utilizarea unui gripper, gestionarea coordonatelor și implementarea unei logici programatice modulare, fiind dezvoltat și testat în simulatorul URSim.
+Acest proiect implică programarea unui braț robotic Universal Robots (UR5) pentru a executa două sarcini complexe și distincte: construirea unei piramide din cuburi și vopsirea suprafețelor cubului final al acestei piramide. Proiectul demonstrează controlul precis al mișcărilor robotului, utilizarea unui gripper, gestionarea coordonatelor și implementarea unei logici programatice modulare, fiind dezvoltat și testat în simulatorul URSim.
 
 ---
 
@@ -15,7 +15,7 @@ Scopul principal al acestui proiect este de a dezvolta un program robust și mod
 Programul robotului UR5 oferă următoarele funcționalități cheie:
 
 - Construire Piramidă Modulară: Robotul preia succesiv cuburi și le plasează în locații precise pentru a construi o piramidă pe mai multe straturi (de ex., 3 straturi).
-- Vopsirea Suprafaței Superioare: După construirea piramidei, robotul preia un marker și vopsește o traiectorie predefinită (ex., o spirală sau un pătrat) pe suprafața superioară a cubului final.
+- Vopsirea Suprafațelor Cubului: După construirea piramidei, robotul preia un marker și vopsește o traiectorie predefinită (ex., o spirală sau un pătrat) pe suprafațele cubului final.
 - Manipulare Obiecte cu Gripper: Utilizează un gripper (simulator) pentru a prelua și plasa cuburile și markerul cu precizie.
 - Mișcări Precise și Controlate: Toate mișcările robotului sunt programate pentru a fi fluide, evitând coliziunile și asigurând stabilitatea structurii.
 - Structură Modulară a Programului: Codul este organizat în subprograme distincte pentru fiecare fază (construire, vopsire, poziționare inițială), facilitând dezvoltarea și depanarea.
@@ -43,9 +43,9 @@ Proiectul este structurat modular pentru a facilita gestionarea complexității.
 Calculează dinamic coordonatele de preluare și plasare pentru fiecare cub, pe fiecare strat
 Include mișcări de siguranță (pre-pick, post-place) pentru a evita coliziunile
 Gestionarea gripper-ului (deschidere/închidere) pentru a prinde și elibera cuburile
-3. paint_cube(): Secvență pentru vopsirea suprafeței superioare a cubului final:
+3. paint_cube(): Secvență pentru vopsirea suprafețelor superioare ale cubului final:
 Mișcări precise pentru a prelua markerul
-Traiectorie definită (ex: spirală sau linii) pentru a acoperi suprafața
+Traiectorie definită (ex: spirală sau linii) pentru a acoperi suprafațele
 Mișcări de siguranță pentru a repoziționa markerul
 Programul principal apelează aceste subprograme într-o ordine logică pentru a executa sarcina completă
 
